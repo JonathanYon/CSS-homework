@@ -514,7 +514,13 @@
         jamboHeader.classList.remove("display-4");
         jamboHeader.classList.add(displayClass);
       }
-      jumboHeaderSize("display-1");
+      // jumboHeaderSize("display-1");
+      // Ex-16
+      function searchRemove() {
+        let search = document.querySelector("a.text-muted svg");
+        search.remove();
+      }
+      searchRemove();
     </script>
   </body>
 </html>
