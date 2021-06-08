@@ -38,3 +38,7 @@ p + p:last-of-type a {
 footer {
   background-color: red;
 }
+
+.jumbotron {
+  /* background-color: red; */
+}

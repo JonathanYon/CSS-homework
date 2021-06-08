@@ -496,11 +496,13 @@
       }
       // mainTitleChange();
       // ex-13
-      function changeJambo() {
-        let jambo = document.querySelector("div.jumbotron");
-        jambo.console.log(jambo);
+      function changeJambo(colorClass) {
+        let jambo = document.querySelector(".jumbotron");
+        let bg_color = jambo.classList.remove("bg-dark");
+        jambo.classList.add(colorClass);
+        console.log();
       }
-      // changeJambo();
+      // changeJambo("bg-danger");
     </script>
   </body>
 </html>
