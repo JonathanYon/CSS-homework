@@ -39,6 +39,6 @@ footer {
   background-color: red;
 }
 /* ----------------------------------------------------- */
-a.text-muted svg {
+.blog-post p:nth-of-type(2) {
   background-color: red;
 }
