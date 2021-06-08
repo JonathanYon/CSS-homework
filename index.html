@@ -507,7 +507,14 @@
         let li = document.querySelector(".p-4:nth-of-type(3) .list-unstyled");
         li.remove();
       }
-      removeLinks();
+      // removeLinks();
+      // Ex-15
+      function jumboHeaderSize(displayClass) {
+        let jamboHeader = document.querySelector(".jumbotron .px-0 h1");
+        jamboHeader.classList.remove("display-4");
+        jamboHeader.classList.add(displayClass);
+      }
+      jumboHeaderSize("display-1");
     </script>
   </body>
 </html>

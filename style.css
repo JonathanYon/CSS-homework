@@ -39,10 +39,6 @@ footer {
   background-color: red;
 }
 /* ----------------------------------------------------- */
-
-.jumbotron {
-  /* background-color: red; */
-}
-.p-4:nth-of-type(3) .list-unstyled {
+.jumbotron .px-0 h1 {
   background-color: red;
 }
