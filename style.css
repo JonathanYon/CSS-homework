@@ -42,3 +42,6 @@ footer {
 .blog-post p:nth-of-type(2) {
   background-color: red;
 }
+.blog-pagination .btn-outline-secondary {
+  background-color: red !important;
+}

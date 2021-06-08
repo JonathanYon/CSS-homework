@@ -532,6 +532,26 @@
         }
       }
       // paragraphTrim();
+      // Ex-18
+      let newerBtn = document.querySelector(
+        ".blog-pagination .btn-outline-secondary"
+      );
+      // console.log(newerBtn);
+
+      let mainBlog = document.querySelector(".blog-main");
+      // console.log(mainBlog);
+
+      newerBtn.addEventListener("click", function () {
+        newerBtn.classList.remove("disabled");
+        newerBtn.removeAttribute("aria-disabled");
+        console.log(newerBtn);
+        let div = document.createElement("div");
+        let h2 = document.createElement("h2");
+        h2.innerText = "New Title";
+        div.appendChild(h2);
+        mainBlog.appendChild(div);
+        console.log(div);
+      });
     </script>
   </body>
 </html>
