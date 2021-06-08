@@ -19,3 +19,13 @@ h1 {
 nav a:nth-child(even) {
   background-color: greenyellow;
 }
+/* ex-6 */
+
+/* ex-7 need hard look here*/
+.rounded + .p-4 .list-unstyled li a {
+  background-color: hotpink;
+}
+/* Ex-8 */
+p + p a {
+  background-color: indigo;
+}
