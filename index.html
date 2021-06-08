@@ -488,7 +488,7 @@
       }
       // addToNav("New links");
 
-      // ex-2
+      // ex-12
 
       function mainTitleChange() {
         let h3 = document.getElementsByTagName("h3")[0];
@@ -500,9 +500,14 @@
         let jambo = document.querySelector(".jumbotron");
         let bg_color = jambo.classList.remove("bg-dark");
         jambo.classList.add(colorClass);
-        console.log();
       }
       // changeJambo("bg-danger");
+      // Ex-14
+      function removeLinks() {
+        let li = document.querySelector(".p-4:nth-of-type(3) .list-unstyled");
+        li.remove();
+      }
+      removeLinks();
     </script>
   </body>
 </html>

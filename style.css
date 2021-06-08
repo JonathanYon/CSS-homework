@@ -38,7 +38,11 @@ p + p:last-of-type a {
 footer {
   background-color: red;
 }
+/* ----------------------------------------------------- */
 
 .jumbotron {
   /* background-color: red; */
+}
+.p-4:nth-of-type(3) .list-unstyled {
+  background-color: red;
 }
