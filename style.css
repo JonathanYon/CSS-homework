@@ -1,0 +1,21 @@
+/* ex-1 */
+h1 {
+  background-color: seagreen;
+}
+
+/* ex-2 */
+/* nav > a {
+  background-color: red;
+} */
+/* ex-3 */
+.jumbotron .col-md-6 p > a {
+  background-color: green;
+}
+/* ex-4 i should take a look more on the + below to understand it better as its so importatnt to know it.*/
+.blog-main h3 + .blog-post {
+  background-color: greenyellow;
+}
+/* 5 */
+nav a:nth-child(even) {
+  background-color: greenyellow;
+}
