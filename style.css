@@ -1,6 +1,5 @@
-/* ex-1 */
-h1 {
-  background-color: seagreen;
+ex-1 h1 {
+  /* background-color: seagreen; */
 }
 
 /* ex-2 */
@@ -9,26 +8,33 @@ h1 {
 } */
 /* ex-3 */
 .jumbotron .col-md-6 p > a {
-  background-color: green;
+  /* background-color: green; */
 }
 /* ex-4 i should take a look more on the + below to understand it better as its so importatnt to know it.*/
 .blog-main h3 + .blog-post {
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
 }
 /* 5 */
 nav a:nth-child(even) {
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
 }
 /* ex-6 */
-
+.blog-post:nth-of-type(3) {
+  /* background-color: red; */
+}
 /* ex-7 need hard look here*/
 .rounded + .p-4 .list-unstyled li a {
-  background-color: hotpink;
+  /* background-color: hotpink; */
 }
 /* Ex-8 */
-p + p a {
-  background-color: indigo;
-}
-main .row .blog-main h3 {
+.blog-post:nth-of-type(2) h2 + p a {
   /* background-color: red; */
+}
+/* Ex-9 */
+p + p:last-of-type a {
+  background-color: yellow;
+}
+
+footer {
+  background-color: red;
 }
