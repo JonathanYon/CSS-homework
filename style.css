@@ -29,3 +29,6 @@ nav a:nth-child(even) {
 p + p a {
   background-color: indigo;
 }
+main .row .blog-main h3 {
+  /* background-color: red; */
+}
